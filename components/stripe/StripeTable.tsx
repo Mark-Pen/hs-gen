@@ -35,7 +35,7 @@ const StripePricingTable = ({ user }: Props) => {
   return (
     <div className='flex flex-1 flex-col w-full'>
       <stripe-pricing-table
-          pricing-table-id="prctbl_1PVb45E9GrpZZ3xoKXqN22KM"
+          pricing-table-id="prctbl_1PVx4xE9GrpZZ3xoOhtSp6qI"
           publishable-key="pk_live_51PRyHnE9GrpZZ3xoJqEgIkuOzIRyB1Rvv5rVEzaHOFMX1Ty5uskGJgxHEvdNd41skuy88DZnuFgDlchX2cmeLFrl00h9NoC0ui"
           client-reference-id={user.id}
           customer-email={user.email}
