@@ -1,5 +1,5 @@
 import { Database } from "@/types/supabase";
-import { NextResponse } from "next/server";
+import { NextResponse, NextRequest } from "next/server";
 import { headers } from "next/headers";
 import { streamToString } from "@/lib/utils";
 import Stripe from "stripe";
@@ -32,9 +32,28 @@ const creditsPerPriceId: {
   [fiveCreditsPriceId]: 5,
 };
 
-export async function POST(request: Request) {
+// Helper function to get raw request body as a string
+async function getRawBody(req: NextRequest): Promise<string> {
+  const reader = req.body?.getReader();
+  if (!reader) {
+    throw new Error('Unable to read request body');
+  }
+  const decoder = new TextDecoder('utf-8');
+  let result = '';
+
+  while (true) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    result += decoder.decode(value, { stream: true });
+  }
+
+  return result;
+}
+
+export async function POST(request: NextRequest) {
   console.log("Request from: ", request.url);
   console.log("Request: ", request);
+  console.log("Request body: ", request.body);
   const headersObj = headers();
   const sig = headersObj.get("stripe-signature");
 
@@ -70,8 +89,12 @@ export async function POST(request: Request) {
     );
   }
 
-  const rawBody = await streamToString(request.body);
-
+  // const rawBody = await streamToString(request.body);
+  const rawBody = await getRawBody(request);
+  // console.log('request.rawBody=>', request.rawBody)
+  console.log('rawBody=>', rawBody)
+  console.log('sig=>', sig)
+  console.log('endpointSecret=>', endpointSecret)
   let event;
 
   try {
