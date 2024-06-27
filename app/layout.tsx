@@ -16,12 +16,16 @@ export default function RootLayout({ children }: any) {
     <html lang="en">
       <Head>      
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-E64Y761D15"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-E64Y761D15');
-        </script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-E64Y761D15');
+            `,
+          }}
+        />
       </Head>
       <body className="min-h-screen flex flex-col">
         <section>
