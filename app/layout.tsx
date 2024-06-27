@@ -13,6 +13,14 @@ export const metadata = {
 export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-E64Y761D15"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-E64Y761D15');
+      </script>
       <body className="min-h-screen flex flex-col">
         <section>
           <Suspense
