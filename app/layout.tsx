@@ -4,7 +4,6 @@ import { Toaster } from "@/components/ui/toaster";
 import "./globals.css";
 import { Suspense } from "react";
 import { Analytics } from "@vercel/analytics/react";
-import Head from 'next/head';
 
 export const metadata = {
   title: "Headshots AI",
@@ -14,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
-      <Head>      
+      <body className="min-h-screen flex flex-col">
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-E64Y761D15"></script>
         <script
           dangerouslySetInnerHTML={{
@@ -26,8 +25,6 @@ export default function RootLayout({ children }: any) {
             `,
           }}
         />
-      </Head>
-      <body className="min-h-screen flex flex-col">
         <section>
           <Suspense
             fallback={
