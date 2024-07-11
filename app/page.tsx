@@ -8,6 +8,7 @@ import hero from "/public/hero.png";
 import { Button } from "@/components/ui/button";
 import ExplainerSection from "@/components/ExplainerSection";
 import PricingSection from "@/components/PricingSection";
+import FrequentlyQuestion from "@/components/FrequentlyQuestion";
 
 export const dynamic = "force-dynamic";
 
@@ -58,6 +59,7 @@ export default async function Index() {
       </div>
       <ExplainerSection />
       <PricingSection />
+      <FrequentlyQuestion />
     </div>
   );
 }

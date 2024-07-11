@@ -6,8 +6,9 @@ import { Suspense } from "react";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: "Headshots AI",
-  description: "Generate awesome headshots in minutes using AI",
+  title: "AI Headshot Generator Free - Create Professional Photos Instantly",
+  description: "Experience the future of professional photography with our AI Headshot Generator Free tool. Create stunning, high-quality headshots instantly and effortlessly. Perfect for professionals, job seekers, and social media enthusiasts.",
+  keywords: 'AI headshot generator, free AI portrait, AI photo creator, free AI image maker, AI selfie generator, free AI photo tool, AI portrait app, free AI headshot software, AI image generator, free AI photo editing'
 };
 
 export default function RootLayout({ children }: any) {
