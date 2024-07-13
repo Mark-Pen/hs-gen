@@ -299,6 +299,7 @@ export default function TrainModelZone() {
               {files.map((file) => (
                 <div key={file.name} className="flex flex-col gap-1">
                   <img
+                    alt="ai headshot generator free"
                     src={URL.createObjectURL(file)}
                     className="rounded-md w-24 h-24 object-cover"
                   />

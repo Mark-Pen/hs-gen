@@ -21,7 +21,7 @@ export default function ExplainerSection() {
         </p>
         <img
           src={example.src}
-          alt="AI Headshot example"
+          alt="ai headshot generator free example"
           className="rounded-lg object-cover w-full md:w-3/4 lg:w-1/2 mx-auto"
         />
       </div>
@@ -39,7 +39,7 @@ export default function ExplainerSection() {
         </p>
         <img
           src={blur.src}
-          alt="AI Headshot blur"
+          alt="ai headshot generator free blur"
           className="rounded-lg object-cover w-full md:w-3/4 lg:w-1/2 mx-auto"
         />
       </div>
@@ -57,7 +57,7 @@ export default function ExplainerSection() {
         </p>
         <img
           src={result.src}
-          alt="AI Headshot result"
+          alt="ai headshot generator free result"
           className="rounded-lg object-cover w-full md:w-3/4 lg:w-1/2 mx-auto"
         />
       </div>

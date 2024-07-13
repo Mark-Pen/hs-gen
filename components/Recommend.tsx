@@ -54,9 +54,9 @@ export default function Recommend() {
         {
           RecommendList.map((item, inde) => {
             return <div className="flex items-center gap-4">
-              <img className="size-14 shrink-0 grow-0 rounded-full h-20 w-20" src={item.avatar} alt="" />
+              <img className="size-14 shrink-0 grow-0 rounded-full h-20 w-20" src={item.avatar} alt="ai headshot generator free" />
               <div className="min-w-0 flex-1 space-y-1.5">
-                <img className="h-3 w-auto" src={item.star} alt="" />
+                <img className="h-3 w-auto" src={item.star} alt="ai headshot generator free" />
                 <p className="text-xs font-medium italic leading-4 tracking-[-0.2px] text-paragraph">
                   {item.content}
                 </p>

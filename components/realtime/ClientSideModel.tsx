@@ -54,6 +54,7 @@ export default function ClientSideModel({
               <div className="flex flex-row gap-4 flex-wrap">
                 {samples.map((sample) => (
                   <img
+                    alt="ai headshot generator free"
                     src={sample.uri}
                     className="rounded-md w-60 h-60 object-cover"
                   />
@@ -69,6 +70,7 @@ export default function ClientSideModel({
                   {serverImages?.map((image) => (
                     <div key={image.id}>
                       <img
+                        alt="ai headshot generator free"
                         src={image.uri}
                         className="rounded-md w-60 object-cover"
                       />
