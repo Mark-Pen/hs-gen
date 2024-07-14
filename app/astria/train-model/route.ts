@@ -77,6 +77,9 @@ export async function POST(request: Request) {
       );
     }
 
+    console.log('credits', credits);
+    
+
     if (credits.length === 0) {
       // create credits for user.
       const { error: errorCreatingCredits } = await supabase
