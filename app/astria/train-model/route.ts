@@ -83,7 +83,7 @@ export async function POST(request: Request) {
         .from("credits")
         .insert({
           user_id: user.id,
-          credits: 0,
+          credits: 1,
         });
 
       if (errorCreatingCredits) {
@@ -96,13 +96,13 @@ export async function POST(request: Request) {
         );
       }
 
-      return NextResponse.json(
-        {
-          message:
-            "Not enough credits, please purchase some credits and try again.",
-        },
-        { status: 500 }
-      );
+      // return NextResponse.json(
+      //   {
+      //     message:
+      //       "Not enough credits, please purchase some credits and try again.",
+      //   },
+      //   { status: 500 }
+      // );
     } else if (credits[0]?.credits < 1) {
       return NextResponse.json(
         {
