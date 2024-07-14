@@ -34,7 +34,7 @@ export default function FunctionDescription() {
       <div className="mx-auto max-w-3xl text-left md:text-center">
         <p className="text-sm font-normal text-paragraph sm:text-base lg:text-lg">🇬🇧 Founded in England We respect your privacy.</p>
         <h2 className="text-3xl font-bold text-center">
-          We're Not Perfect. But We're The Best.
+          Why Do You Need AI Headshot Generator Free
         </h2>
       </div>
       <div className="mt-8 grid grid-cols-1 gap-4 sm:mt-12 md:grid-cols-3">

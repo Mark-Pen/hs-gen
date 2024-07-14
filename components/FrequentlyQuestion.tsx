@@ -43,7 +43,7 @@ export default function PricingSection() {
 
   return (
     <div className="w-full max-w-4xl mb-16 p-8 rounded-lg">
-      <h2 className="text-3xl font-bold text-center">Frequently Asked Questions</h2>
+      <h2 className="text-3xl font-bold text-center">FAQs About AI Headshot Generator Free</h2>
       <p className="text-sm text-center text-gray-500 mt-4 mb-16">Answers to common questions about our free AI generated headshot maker.</p>
       <div className="w-full grid grid-cols-2 gap-8">
         {
