@@ -86,7 +86,6 @@ export async function POST(request: Request) {
         .from("credits")
         .insert({
           user_id: user.id,
-          credits: 1,
         });
 
       if (errorCreatingCredits) {
