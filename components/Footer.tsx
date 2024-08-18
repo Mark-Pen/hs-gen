@@ -11,7 +11,7 @@ export default function Footer() {
               AI Headshot Generator Free - Create Professional Photos
             </p>
             <p className="text-sm font-normal text-gray-400 mt-4">
-              © 2024 [aiheadshotgeneratorfree.com]. All rights reserved.
+              Copyright 2024 © HANSMARK LTD. All rights reserved.
             </p>
           </div>
           <div className="lg:pl-24">
