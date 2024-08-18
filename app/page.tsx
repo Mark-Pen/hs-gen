@@ -63,7 +63,6 @@ export default async function Index() {
       <FunctionDescription />
       <Recommend />
       <FrequentlyQuestion />
-      <div>hanpen4423532@gmail.com</div>
     </div>
   );
 }
