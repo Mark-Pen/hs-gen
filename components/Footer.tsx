@@ -84,7 +84,7 @@ export default function Footer() {
                 <a className="inline-flex text-sm font-normal text-gray-600  hover:text-gray-900" target="_blank" href="https://aitoolsexplorer.org/" title="AI Tools Explorer">AI Tools Explorer</a>
               </li>
               <li>
-                <a className="inline-flex text-sm font-normal text-gray-600  hover:text-gray-900" target="_blank" href="https://bai.tools" target="_blank">BAI.tools</a>
+                <a className="inline-flex text-sm font-normal text-gray-600  hover:text-gray-900" target="_blank" href="https://bai.tools">BAI.tools</a>
               </li>
               <li>
                 <a className="inline-flex text-sm font-normal text-gray-600  hover:text-gray-900" target="_blank" href="https://aitoolcenter.com/" title="AI Tool Center">AI Tool Center</a>
