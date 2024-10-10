@@ -130,25 +130,33 @@ export async function POST(request: Request) {
     const DOMAIN = "https://api.astria.ai";
 
     const body = {
+      // tune: {
+      //   title: name,
+      //   // Hard coded tune id of Realistic Vision v5.1 from the gallery - https://www.astria.ai/gallery/tunes
+      //   // https://www.astria.ai/gallery/tunes/690204/prompts
+      //   base_tune_id: 690204,
+      //   name: type,
+      //   // branch: astriaTestModeIsOn ? "fast" : "sd15",
+      //   branch: "sd15",
+      //   token: "ohwx",
+      //   image_urls: images,
+      //   callback: trainWenhookWithParams,
+      //   prompts_attributes: [
+      //     {
+      //       text: `portrait of ohwx ${type} wearing a business suit, professional photo, white background, Amazing Details, Best Quality, Masterpiece, dramatic lighting highly detailed, analog photo, overglaze, 80mm Sigma f/1.4 or any ZEISS lens`,
+      //       callback: promptWebhookWithParams,
+      //       num_images: 5,
+      //     },
+      //   ],
+      // },
       tune: {
         title: name,
-        // Hard coded tune id of Realistic Vision v5.1 from the gallery - https://www.astria.ai/gallery/tunes
-        // https://www.astria.ai/gallery/tunes/690204/prompts
-        base_tune_id: 690204,
         name: type,
-        // branch: astriaTestModeIsOn ? "fast" : "sd15",
-        branch: "sd15",
-        token: "ohwx",
-        image_urls: images,
+        base_tune_id: 1504944,
+        model_type: "lora",
         callback: trainWenhookWithParams,
-        prompts_attributes: [
-          {
-            text: `portrait of ohwx ${type} wearing a business suit, professional photo, white background, Amazing Details, Best Quality, Masterpiece, dramatic lighting highly detailed, analog photo, overglaze, 80mm Sigma f/1.4 or any ZEISS lens`,
-            callback: promptWebhookWithParams,
-            num_images: 5,
-          },
-        ],
-      },
+        image_urls: images
+      }
     };
 
     const response = await axios.post(DOMAIN + "/tunes", body, {
