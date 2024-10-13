@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-12 sm:grid-cols-3 lg:grid-cols-4 lg:mt-10">
           <div className="col-span-2 sm:col-span-3 lg:col-span-1 relative custom-top-negative">
             <a href="/" className="flex nuxt-link-active">
-              <img src='./logo_horizontal.png' alt="" className="h-20 w-auto" />
+              <img src='./logo_horizontal.png' alt="ai headshot generator free result" className="h-20 w-auto" />
             </a>
             <p className="mt-4 text-base font-normal text-gray-500">
               AI Headshot Generator Free - Create Professional Photos
