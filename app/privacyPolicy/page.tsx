@@ -7,75 +7,87 @@ export default function RootLayout({ children }: any) {
             Privacy Polic
           </h1>
           <p className="mt-4 text-base font-medium sm:text-lg text-[#474368]">
-            At aiheadshotgeneratorfree, your privacy and the protection of your data is our top priority. All data collected, both personal and non-personal, is protected with the highest global standards.
+            Welcome to AI Headshot Generator Free ("the Website"). We value your privacy and are committed to protecting your personal information. This Privacy Policy ("Policy") outlines how we collect, use, store, and share your personal data. Please read this Policy carefully before using the Website to ensure you understand and agree with its terms.
           </p>
           <div className="prose text-[#474368] mx-auto mt-4 prose-headings:text-primary-500 nuxt-content">
-            <p>aiheadshotgeneratorfree is operated by Postcrafts PTE LTD.</p>
-            <p>
-              The contents of this privacy policy are applicable to the website
-              <a href="https://aiheadshotgeneratorfree.com/" target='_blank'></a>
-              and use of the services provided by this site to the user.
-            </p>
             <h2 className="font-bold xl:py-6">
-              1. Notice
+              1. Information Collection
             </h2>
             <p>
-              Whenever we request information that can be used to personally identify you, you will explicitly be asked to provide it and/or give us permission to use it. This information is requested by our system whenever confirmation of your permission is required to continue (e.g. asking for permission for the use of cookies when you visit our site, asking for your payment information when you sign up).
+              When you use the Website, we may collect the following types of information:
             </p>
-            <h2 className="font-bold xl:py-6">2. Your consent</h2>
-            <p>You will always have the choice whether to give us permission to process your information or not.</p>
-            <p>With data that is not essential to the core functionality of our services (e.g. cookies for marketing purposes, company name, etc.) you are able to decline permission without any consequences to your access to aiheadshotgeneratorfree.</p>
-            <p>If you choose to decline the use of essential information for the use of our services (e.g. essential cookies, payment information, e-mail address), we will be unable to give you access to all aspects of aiheadshotgeneratorfree that require such information to function. Whether any given information is essential to our services or not will be explicitly indicated when you are asked to provide or give permission for us to use such information.</p>
-            <p>By agreeing to this privacy policy and providing us with your personal information you consent to us processing said information as described in this privacy policy.</p>
-            <h2 className="font-bold xl:py-6">3. Usage</h2>
-            <h3 className="font-bold xl:py-2">3.1. Data we collect</h3>
-            <p>We collect various forms of personal identifiable information. This includes all information which could directly be used to identify you. This includes your name, e-mail address, payment information and more.</p>
-            <p>We also collect data based on your usage of our platform with our optional cookies. This data is collected and processed fully anonymously, meaning it can not be traced back to you or your person.</p>
-            <h3 className="font-bold xl:py-2">3.2. How we use your data</h3>
-            <p>We use your personally identifiable information for the following purposes:</p>
-            <ul>
-              <li>
-                Provide you with access to all of aiheadshotgeneratorfree’s features
-              </li>
-              <li>Process your payments</li>
-              <li>Inform you about important information regarding aiheadshotgeneratorfree, as well as any other information you choose to opt in to.</li>
-              <li>Contact you to inform you about the status of your order, if there is a problem with your order, if you request us to via our support services, or for other reasons you may opt in to.</li>
-              <li>aiheadshotgeneratorfree use and transfer to any other app of information received from Google APIs will adhere to </li>
-            </ul>
-            <p>We use anonymous usage data to analyze the use of our platform by our users so we can improve our services.</p>
-            <p>Data regarding the use of our platform by our users may be shared with third parties we work with to improve our services and keep our activities running. This includes organizations like marketing agencies. This data will always be made fully anonymous before it’s shared.</p>
-            <p>Some of your personal identifiable information may also need to be shared with our partners to provide you with our essential services. Examples include shipping companies when we need to physically mail you a product. In these cases, these partners will only be provided with the information absolutely necessary to provide their service.</p>
-            <p>If a legal request for your personally identifiable information or other information regarding you or your person is requested by a federal court, judge or law enforcement, we are legally required to provide them with your personal identifiable information. In these cases, we may do so without your permission and without informing you.</p>
-            <p>Outside of these three categories, no party outside of aiheadshotgeneratorfree will ever get access to your personal information unless you specifically grant us permission. If we do wish to share your information with an external party outside of these three categories, we will always explicitly ask you for permission first.</p>
-            <h2 className="font-bold xl:py-6">4. Retention of information</h2>
-            <p>We retain your information as long as this is necessary to provide you with our services. All personal identifiable information will be deleted when you inform us you wish to stop using our services (e.g. by deleting your account), when your subscription expires, or when you explicitly request us to delete it. Once your request has been submitted and confirmed, your information will be deleted within 14 days.</p>
-            <p>Information may be retained for longer if this is necessary for legal requirements. If required by law or ordered by a federal judge or court, we may retain information for longer and/or share it with said organization.</p>
-            <h2 className="font-bold xl:py-6">5. Your rights</h2>
-            <h3 className="font-bold xl:py-2">5.1. Your rights</h3>
-            <p>You are the owner of your information. As stated by the GDPR, you have several rights regarding the treatment of your information by us.</p>
-            <ul>
-              <li>Right of access: You are entitled to receiving a copy of all personally identifiable information related to you and your person that we have processed</li>
-              <li>Right to rectification: You are entitled to have any personally identifiable information you have provided to us corrected or adjusted in the case the information is not correct</li>
-              <li>Right to erasure: You are entitled to having some or all personally identifiable information we have gathered be erased at your request</li>
-              <li>Right to restriction of processing: You are entitled to us stopping the processing of relevant personally identifiable information if this information is not correct, unlawful, no longer necessary according to the information in our privacy policy and/or when you object to us processing said information. Objection is only valid if there is no essential reason for us to process said information.</li>
-              <li>Right to data portability: You have the right to transfer personally identifiable information we have processed to another party</li>
-            </ul>
-            <p>If you would like to make use of any of these rights, you may contact us via the e-mail address at the end of this privacy policy.</p>
-            <h3 className="font-bold xl:py-2">5.2. Right to object</h3>
-            <p>We are legally required to separately inform you about your right to object. Conform the European GDPR, you have the right to object to us processing your personally identifiable information for direct marketing purposes. If you file an objection with us, we are legally required to immediately halt the processing of said information for said purpose. You can file an objection using the e-mail address at the end of this privacy policy.</p>
-            <h2 className="font-bold xl:py-6">6. Opting out</h2>
-            <p>In addition to our core services, we provide various extra services to improve your experience. This includes the sending of newsletters, contacting you for customer satisfaction surveys, et cetera. At any point, you may opt out of these kinds of services. For our contact via e-mail, you can click the link at the bottom of any of our e-mails to change your preferences. You can also opt out of additional communication and services in your account settings.</p>
-            <h2 className="font-bold xl:py-6">7. Security of your information</h2>
-            <p>We take various measures to protect your data to the best of our abilities. In order to achieve this, we make use of:</p>
-            <ul>
-              <li>Security software, including virus scanners</li>
-              <li>TLS secured connections for a secure connection between our servers and your device</li>
-              <li>The DKIM, SPF and DMARC internet standards to protect our email traffic</li>
-            </ul>
-            <h2 className="font-bold xl:py-6">8. Changes to this policy</h2>
-            <p>We reserve the right to make changes to our privacy policy. When this happens, you will be notified at least two weeks in advance of the changes taking effect. If you do not agree with the new policy, you are free to withdraw your consent within the given time period.</p>
-            <h2 className="font-bold xl:py-6">9. Contact</h2>
-            <p>If you have any questions about our privacy policy, have a comment about it, wish to talk about the enforcement of our policy or want to otherwise discuss our privacy policy, you may reach out to us via the following e-mail address: </p>
+            <p className="xl:py-2"><span className="font-bold">Account Information: </span>When you register or log in, we may collect your name, email address, username, and password.</p>
+            <p className="xl:py-2"><span className="font-bold">Image Data:</span> When you upload a photo to generate a headshot, we process the image solely for the purpose of generating the headshot and do not use it for any other purposes.</p>
+            <p className="xl:py-2"><span className="font-bold">Technical Information: </span>We may automatically collect technical details such as your IP address, browser type, device identifier, and operating system version.</p>
+            <p className="xl:py-2"><span className="font-bold">Usage Information:</span> We may gather data on your interactions with the Website, including pages visited, features used, and links clicked.</p>
+
+
+
+            <h2 className="font-bold xl:py-6">
+              2. Use of Information
+            </h2>
+            <p>
+              We utilize the collected information for the following purposes:
+            </p>
+            <p className="xl:py-2"><span className="font-bold">Service Provision and Maintenance:  </span>To provide and maintain the AI headshot generation service.</p>
+            <p className="xl:py-2"><span className="font-bold">Service Improvement: </span>To analyze user feedback and behavior in order to enhance and improve Website functionalities and user experience.</p>
+            <p className="xl:py-2"><span className="font-bold">Security:  </span>To detect, prevent, and respond to security threats and fraudulent activities.</p>
+            <p className="xl:py-2"><span className="font-bold">Communication: </span>To contact you via email with service updates, feature changes, promotional information, or account-related notifications.</p>
+
+
+            <h2 className="font-bold xl:py-6">
+              3. Information Sharing
+            </h2>
+            <p>
+              We do not sell, rent, or share your personal information with third parties, except in the following circumstances:
+            </p>
+            <p className="xl:py-2"><span className="font-bold">With Your Consent: </span>We will share your information if we have your explicit consent.</p>
+            <p className="xl:py-2"><span className="font-bold">Legal Requirements: </span>We may disclose your personal data if required by law or in response to a valid request from a governmental authority.</p>
+            <p className="xl:py-2"><span className="font-bold">Service Providers: </span>We may share your information with third-party service providers (e.g., cloud storage services, image processing tools) to assist in providing our services. These providers are obligated to process your data solely based on our instructions and adhere to strict privacy agreements.</p>
+
+
+            <h2 className="font-bold xl:py-6">
+              4. Data Storage and Security
+            </h2>
+            <p>
+              We implement appropriate technical and organizational measures to safeguard your personal information against unauthorized access, alteration, disclosure, or destruction. While we strive to ensure the security of your data, please be aware that no method of transmission over the internet or electronic storage is 100% secure.
+            </p>
+            <p>The images you upload are used exclusively for generating headshots and are deleted from our servers within a reasonable time after the headshot is generated.</p>
+            <h2 className="font-bold xl:py-6">
+              5. Cookies and Similar Technologies
+            </h2>
+            <p>We may use cookies and similar technologies to enhance your user experience, provide personalized services, and analyze Website traffic. You can manage or disable cookies through your browser settings; however, this may affect your ability to use certain features of the Website.</p>
+            <h2 className="font-bold xl:py-6">
+              6. User Rights
+            </h2>
+            <p>In accordance with applicable data protection laws, you have the following rights:</p>
+            <p className="xl:py-2"><span className="font-bold">Access: </span>You have the right to access the personal information we hold about you.</p>
+            <p className="xl:py-2"><span className="font-bold">Correction: </span>You can request corrections to any inaccurate personal data.</p>
+            <p className="xl:py-2"><span className="font-bold">Deletion: </span>Under certain circumstances, you may request the deletion of your personal information.</p>
+            <p className="xl:py-2"><span className="font-bold">Restriction: </span>You can request restrictions on the processing of your personal data.</p>
+            <p className="xl:py-2"><span className="font-bold">Withdrawal of Consent: </span>If we are processing your data based on your consent, you have the right to withdraw that consent at any time.</p>
+
+            <h2 className="font-bold xl:py-6">
+              7. Children's Privacy
+            </h2>
+            <p>
+              The Website is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that we have inadvertently collected such information, we will promptly delete it.
+            </p>
+
+            <h2 className="font-bold xl:py-6">
+              8. Changes to the Privacy Policy
+            </h2>
+            <p>
+              We reserve the right to update this Policy as necessary. The updated Policy will be posted on the Website with the effective date indicated. We encourage you to review this Policy periodically to stay informed about how we protect your personal information.
+            </p>
+
+            <h2 className="font-bold xl:py-6">
+              9. Contact Us
+            </h2>
+            <p>
+              If you have any questions or need to exercise your user rights, you can contact us at:
+            </p>
+            <p className="xl:py-2"><span className="font-bold">Email: </span>aiheadshot.suppot@gmail.com</p>
           </div>
         </div>
       </div>

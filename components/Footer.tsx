@@ -22,6 +22,12 @@ export default function Footer() {
                   aiheadshot.suppot@gmail.com
                 </span>
               </li>
+              <li>
+                <a className="inline-flex text-sm font-normal text-gray-600  hover:text-gray-900" target="_blank" href="/privacyPolicy" title="ToolsApp AI Tools Directory">PrivacyPolicy</a>
+              </li>
+              <li>
+                <a className="inline-flex text-sm font-normal text-gray-600  hover:text-gray-900" target="_blank" href="/TermsOfService" title="ToolsApp AI Tools Directory">TermsOfService</a>
+              </li>
             </ul>
           </div>
           <div className="lg:pl-1">
