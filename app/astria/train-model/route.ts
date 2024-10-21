@@ -159,14 +159,14 @@ export async function POST(request: Request) {
         image_urls: images,
         // branch: "sd15",
         branch: "fast",
-        token: "ohwx",
-        prompts_attributes: [
-          {
-            text: `portrait of ohwx ${type} wearing a business suit, professional photo, white background, Amazing Details, Best Quality, Masterpiece, dramatic lighting highly detailed, analog photo, overglaze, 80mm Sigma f/1.4 or any ZEISS lens`,
-            callback: promptWebhookWithParams,
-            num_images: 5,
-          },
-        ],
+        // token: "ohwx",
+        // prompts_attributes: [
+        //   {
+        //     text: `portrait of ohwx ${type} wearing a business suit, professional photo, white background, Amazing Details, Best Quality, Masterpiece, dramatic lighting highly detailed, analog photo, overglaze, 80mm Sigma f/1.4 or any ZEISS lens`,
+        //     callback: promptWebhookWithParams,
+        //     num_images: 5,
+        //   },
+        // ],
       }
     };
 
