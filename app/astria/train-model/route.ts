@@ -158,7 +158,7 @@ export async function POST(request: Request) {
         callback: trainWenhookWithParams,
         image_urls: images,
         // branch: "sd15",
-        // branch: "fast",
+        branch: "fast",
         // token: "ohwx",
         // prompts_attributes: [
         //   {
